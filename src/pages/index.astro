@@ -32,7 +32,7 @@ import SliderGrid from "@/components/SliderGrid.astro";
 
   let width: number, height: number;
   let lastTimestamp = 0;
-  const frameInterval = 22.22222222222222;
+  const frameInterval = 24;
 
   function resizeCanvas() {
     const dpr = window.devicePixelRatio || 1;
@@ -239,7 +239,7 @@ import SliderGrid from "@/components/SliderGrid.astro";
   }
   canvas {
     position: absolute;
-    left: 1px;
+    left: 0.8px;
     height: 100%;
     aspect-ratio: 128 / 128;
   }
